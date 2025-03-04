@@ -4,7 +4,9 @@
 		"composite": true
 	},
 	"include": [
-		"./**/*",
+		"./**/*.ts",
+		"./**/*.vue",
+		"./**/*.md",
 		"./.vitepress/theme"
 	],
 	"exclude": [

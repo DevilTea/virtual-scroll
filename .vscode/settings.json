@@ -31,5 +31,6 @@
 		"scss",
 		"pcss",
 		"postcss"
-	]
+	],
+	"vue.server.includeLanguages": ["vue", "markdown"]
 }

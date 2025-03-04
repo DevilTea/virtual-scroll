@@ -139,6 +139,10 @@ importers:
         version: 8.3.2
 
   docs:
+    dependencies:
+      '@deviltea/virtual-scroll-vue':
+        specifier: workspace:*
+        version: link:../packages/vue
     devDependencies:
       '@shikijs/vitepress-twoslash':
         specifier: 'catalog:'
@@ -158,6 +162,21 @@ importers:
       vue-tsc:
         specifier: 'catalog:'
         version: 2.2.4(typescript@5.7.3)
+
+  packages/core: {}
+
+  packages/vue:
+    dependencies:
+      '@deviltea/virtual-scroll-core':
+        specifier: workspace:*
+        version: link:../core
+      '@vueuse/core':
+        specifier: ^12.7.0
+        version: 12.7.0(typescript@5.7.3)
+    devDependencies:
+      vue:
+        specifier: 'catalog:'
+        version: 3.5.13(typescript@5.7.3)
 
 packages:
 

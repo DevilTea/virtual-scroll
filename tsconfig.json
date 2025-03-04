@@ -1,8 +1,8 @@
 {
 	"extends": [
 		"./docs/tsconfig.json",
-		"./packages/@deviltea/virtual-scroll/tsconfig.json",
-		"./packages/core/tsconfig.json"
+		"./packages/core/tsconfig.json",
+		"./packages/vue/tsconfig.json"
 	],
 	"references": [
 		{
